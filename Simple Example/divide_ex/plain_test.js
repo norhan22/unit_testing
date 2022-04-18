@@ -1,6 +1,6 @@
 
 //TODO implement the divide function
-const divide = require('./divide_fun')
+const divide = require('./fun')
 
 
 // TODO unit Testing function first
