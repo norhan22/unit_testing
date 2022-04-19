@@ -7,7 +7,7 @@ function testCalculateTotal(nums,res){
     })
 }
 describe(`CalculateTotal results`,()=>{
-    describe('happy scenario',()=>{
+    describe.only('happy scenario',()=>{
         testCalculateTotal(null,0)
         testCalculateTotal([30,null],30)
         testCalculateTotal([null,null],0)

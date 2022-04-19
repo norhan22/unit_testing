@@ -13,7 +13,7 @@ const divide = require('./fun')
     //     if(divide(x,y) === res) console.log('success')
     //     else console.error('failed')
      */
-    test(`it can divide ${x} by ${y} to be equal ${res}`, () => {
+    test.skip(`it can divide ${x} by ${y} to be equal ${res}`, () => {
         expect(divide(x,y)).toBe(res)
     })
 }

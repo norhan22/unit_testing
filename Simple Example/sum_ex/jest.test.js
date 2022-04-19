@@ -5,7 +5,7 @@ function canSum(x,y,res){
     // console.log(`it can sum ${x} and ${y} to equal ${res}`)
     // if(sum(x,y)=== res) console.log('success')
     // else console.error('fail')
-    test(`it can sum ${x} and ${y} to equal ${res}`,()=>{
+    test.skip(`it can sum ${x} and ${y} to equal ${res}`,()=>{
         expect(sum(x,y)).toBe(res)
     })
 }
