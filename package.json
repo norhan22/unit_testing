@@ -4,7 +4,8 @@
   "description": "",
   "main": "Simple Example/plain_js.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "serve": "npx serve"
   },
   "author": "",
   "license": "ISC",
