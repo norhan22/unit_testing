@@ -2,10 +2,11 @@
   "name": "unit_testing",
   "version": "1.0.0",
   "description": "",
-  "main": "Simple Example/plain_js.js",
+  "main": "Simple Example/divide_ex/plain_test.js",
   "scripts": {
     "test": "jest --watchAll",
-    "serve": "npx serve"
+    "serve": "npx serve",
+    "coverage": "jest --watchAll --coverage"
   },
   "author": "",
   "license": "ISC",

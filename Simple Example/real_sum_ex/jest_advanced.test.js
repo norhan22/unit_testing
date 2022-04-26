@@ -23,11 +23,13 @@ function testInputs(nums){
         describe(`check inputs`,()=>{
 
             test(`not have null`,()=>{
-
                 expect(nums).not.toContain(null)
             })
             test(`not have string`,()=>{
                 nums.some(n=>expect(n).not.toBe(true))
+            })
+            test(`type of ${nums} is array`,()=>{
+                expect(nums).toEqual(expect.any(Array))
             })
         })
     // }, 100);
