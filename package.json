@@ -2,7 +2,7 @@
   "name": "unit_testing",
   "version": "1.0.0",
   "description": "",
-  "main": "Simple Example/Ex1_divide_fun/plain_test.js",
+  "main": "Examples/Ex1_divide_fun/plain_test.js",
   "scripts": {
     "test": "jest --watchAll",
     "serve": "npx serve",

@@ -17,7 +17,8 @@ function testBS(arr,target,res){
 }
 function testBSO(arr,target,key,res){
     test(testTitle(target,arr,res),()=>{
-        expect(binarySearchArrayOfObjects({targetValue:target, key, arr})).toEqual(res)
+        expect(binarySearchArrayOfObjects({targetValue:target, key, arr}))
+            .toEqual(res)
     })
 }
 
