@@ -6,15 +6,19 @@
   "scripts": {
     "test": "jest --watchAll",
     "serve": "npx serve",
-    "coverage": "jest --watchAll --coverage"
+    "coverage": "jest --watchAll --coverage",
+    "start_Ex5": "webpack ./Examples/Ex5_axios_mock/app.js --output-path ./Examples/Ex5_axios_mock/dist/  --mode development --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.27.2",
     "jest": "^27.5.1"
   },
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["html"]
+    "coverageReporters": [
+      "html"
+    ]
   }
 }
