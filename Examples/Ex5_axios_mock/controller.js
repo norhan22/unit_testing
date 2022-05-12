@@ -1,4 +1,5 @@
 function generateViewList(items,showProps=[],listTagName='ol'){
+
     const
         resultBlock=document.createElement('div'),
         newList = document.createElement(listTagName),
