@@ -1,3 +1,4 @@
+
 function generateViewList(items,showProps=[],listTagName='ol'){
 
     const
@@ -14,6 +15,7 @@ function generateViewList(items,showProps=[],listTagName='ol'){
         newList.append(newRow)
     })
     resultBlock.append(newList)
+    console.log(resultBlock)
     return resultBlock
 }
 
