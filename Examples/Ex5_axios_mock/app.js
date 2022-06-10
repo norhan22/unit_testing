@@ -28,3 +28,5 @@ const getPosts=()=>{
 
 getUsersBtn.addEventListener('click',getUsers)
 getPostsBtn.addEventListener('click',getPosts)
+
+module.exports=getData

@@ -1,5 +1,5 @@
 /*
-* Describe to collapse tests
+* Describe to collapse jest
 * "it" === "test"
 * BeforeAll , AfterAll
 * Watchers =>

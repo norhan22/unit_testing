@@ -1,4 +1,4 @@
-const dummy = require('./dummyData')
+const dummy = require('../../dummyData')
     getUsers=()=>{
         return Promise.resolve(dummy.users)
     },
